@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".faculty.UpdateFaculty">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fab"
+        style="@style/Widget.Design.FloatingActionButton"
+        android:layout_gravity="bottom|right"
+        android:layout_margin="16dp"
+        android:src="@drawable/ic_add"
+        android:elevation="3dp"
+        app:fabSize="normal"/>
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="B.C.A Deaprtment"
+                android:gravity="center"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"
+                android:layout_height="35dp"
+                android:textColor="@color/white"
+                android:background="#F39C12"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#c1c1c1"
+                android:layout_marginVertical="8dp"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bcaDepartment"
+                android:visibility="gone"
+                android:nestedScrollingEnabled="false"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/bcaNoData">
+
+                <include layout="@layout/no_data_found"/>
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text="B.Com Depatment"
+                android:gravity="center"
+                android:textSize="22sp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:background="#F39C12"
+                android:layout_marginTop="16dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#c1c1c1"
+                android:layout_marginVertical="8dp"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bcomDepartment"
+                android:visibility="gone"
+                android:nestedScrollingEnabled="false"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/bcomNoData">
+
+                <include layout="@layout/no_data_found" />
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:text="Chemistry Department(M.Sc.)"
+                android:gravity="center"
+                android:textSize="22sp"
+                android:layout_height="35dp"
+                android:textColor="@color/white"
+                android:background="#F39C12"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#c1c1c1"
+                android:layout_marginVertical="8dp"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/CmscDepartment"
+                android:visibility="gone"
+                android:nestedScrollingEnabled="false"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/CmscNoData">
+
+                <include layout="@layout/no_data_found"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="Department Of Education"
+                android:gravity="center"
+                android:textSize="22sp"
+                android:layout_height="35dp"
+                android:textColor="@color/white"
+                android:background="#F39C12"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#c1c1c1"
+                android:layout_marginVertical="8dp"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/doeDepartment"
+                android:visibility="gone"
+                android:nestedScrollingEnabled="false"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/doeNoData">
+
+                <include layout="@layout/no_data_found"/>
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="Department Of Physics(P.G)"
+                android:gravity="center"
+                android:textSize="22sp"
+                android:layout_height="35dp"
+                android:textColor="@color/white"
+                android:background="#F39C12"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginVertical="8dp"
+                android:background="#c1c1c1" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/dopDepartment"
+                android:visibility="gone"
+                android:nestedScrollingEnabled="false"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/dopNoData">
+
+                <include layout="@layout/no_data_found"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="Department Of Chemistry(P.G)"
+                android:gravity="center"
+                android:textSize="22sp"
+                android:layout_height="35dp"
+                android:textColor="@color/white"
+                android:background="#F39C12"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#c1c1c1"
+                android:layout_marginVertical="8dp"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/docDepartment"
+                android:visibility="gone"
+                android:nestedScrollingEnabled="false"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/docNoData">
+
+                <include layout="@layout/no_data_found"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="Department Of Mathematics"
+                android:gravity="center"
+                android:textSize="22sp"
+                android:layout_height="35dp"
+                android:textColor="@color/white"
+                android:background="#F39C12"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#c1c1c1"
+                android:layout_marginVertical="8dp"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/domDepartment"
+                android:visibility="gone"
+                android:nestedScrollingEnabled="false"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/domNoData">
+
+                <include layout="@layout/no_data_found"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="Department Of Statistics"
+                android:gravity="center"
+                android:textSize="22sp"
+                android:layout_height="35dp"
+                android:textColor="@color/white"
+                android:background="#F39C12"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#c1c1c1"
+                android:layout_marginVertical="8dp"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/dosDepartment"
+                android:visibility="gone"
+                android:nestedScrollingEnabled="false"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/dosNoData">
+
+                <include layout="@layout/no_data_found"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="Department Of Political Science"
+                android:gravity="center"
+                android:textSize="22sp"
+                android:layout_height="35dp"
+                android:textColor="@color/white"
+                android:background="#F39C12"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#c1c1c1"
+                android:layout_marginVertical="8dp"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/dopsDepartment"
+                android:visibility="gone"
+                android:nestedScrollingEnabled="false"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/dopsNoData">
+
+                <include layout="@layout/no_data_found"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="Department Of Physical Education"
+                android:gravity="center"
+                android:textSize="22sp"
+                android:layout_height="35dp"
+                android:textColor="@color/white"
+                android:background="#F39C12"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#c1c1c1"
+                android:layout_marginVertical="8dp"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/dopeDepartment"
+                android:visibility="gone"
+                android:nestedScrollingEnabled="false"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/dopeNoData">
+
+                <include layout="@layout/no_data_found"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="Department Of Sanskrit(P.G)"
+                android:gravity="center"
+                android:textSize="22sp"
+                android:layout_height="35dp"
+                android:textColor="@color/white"
+                android:background="#F39C12"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#c1c1c1"
+                android:layout_marginVertical="8dp"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/dospgDepartment"
+                android:visibility="gone"
+                android:nestedScrollingEnabled="false"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/dospgNoData">
+
+                <include layout="@layout/no_data_found"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="Department Of Economics"
+                android:gravity="center"
+                android:textSize="22sp"
+                android:layout_height="35dp"
+                android:textColor="@color/white"
+                android:background="#F39C12"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#c1c1c1"
+                android:layout_marginVertical="8dp"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/DoeDepartment"
+                android:visibility="gone"
+                android:nestedScrollingEnabled="false"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/DoeNoData">
+
+                <include layout="@layout/no_data_found"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="Department Of Sociology"
+                android:gravity="center"
+                android:textSize="22sp"
+                android:layout_height="35dp"
+                android:textColor="@color/white"
+                android:background="#F39C12"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#c1c1c1"
+                android:layout_marginVertical="8dp"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/DosDepartment"
+                android:visibility="gone"
+                android:nestedScrollingEnabled="false"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/DosNoData">
+
+                <include layout="@layout/no_data_found"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="Department Of Hindi"
+                android:gravity="center"
+                android:textSize="22sp"
+                android:layout_height="35dp"
+                android:textColor="@color/white"
+                android:background="#F39C12"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#c1c1c1"
+                android:layout_marginVertical="8dp"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/dohDepartment"
+                android:visibility="gone"
+                android:nestedScrollingEnabled="false"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/dohNoData">
+
+                <include layout="@layout/no_data_found"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="Department Of English"
+                android:gravity="center"
+                android:textSize="22sp"
+                android:layout_height="35dp"
+                android:textColor="@color/white"
+                android:background="#F39C12"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#c1c1c1"
+                android:layout_marginVertical="8dp"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/doenDepartment"
+                android:visibility="gone"
+                android:nestedScrollingEnabled="false"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/doenNoData">
+
+                <include layout="@layout/no_data_found"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

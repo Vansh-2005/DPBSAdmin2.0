@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "1093846083184",
+    "firebase_url": "https://dpbs-college-app-default-rtdb.firebaseio.com",
+    "project_id": "dpbs-college-app",
+    "storage_bucket": "dpbs-college-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1093846083184:android:569cf2ed6706982dc1f6b5",
+        "android_client_info": {
+          "package_name": "com.anoop.dpbsadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1093846083184-ag31n2u4v298gnjj6ch3vv694m0jk92j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-HlOG23hjJAYPqHkfD9TYb6MXQE-rJcE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1093846083184-ag31n2u4v298gnjj6ch3vv694m0jk92j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1093846083184:android:2ea545b996dbb5eec1f6b5",
+        "android_client_info": {
+          "package_name": "com.dpbs.collegeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1093846083184-ag31n2u4v298gnjj6ch3vv694m0jk92j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-HlOG23hjJAYPqHkfD9TYb6MXQE-rJcE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1093846083184-ag31n2u4v298gnjj6ch3vv694m0jk92j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1093846083184:android:b283a6632cf41580c1f6b5",
+        "android_client_info": {
+          "package_name": "com.example.dpbsadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1093846083184-ag31n2u4v298gnjj6ch3vv694m0jk92j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-HlOG23hjJAYPqHkfD9TYb6MXQE-rJcE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1093846083184-ag31n2u4v298gnjj6ch3vv694m0jk92j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
